@@ -1,0 +1,82 @@
+[7]++[7]++[7]++[7]++[7]
+6=81++91----71[-81----61]++;7=+81--91[---61--71]+;8=-61++71[+++81++91]-;9=--81++++61[+91++++71]--71
+
+-----------------------
+Note : ligne 1 -> axiome
+       ligne 2 -> liste de N regles sous la forme regle1;regle2;regleN
+       
+       Les regles sous la forme Element_de_depart=Element_d'arrivee=proba(optionnel)
+-----------------------
+Differentes regles : 
+-----------------------
+angle : 25.7 iterations : 5
+F
+F=F[+F]F[-F]F
+-----------------------
+angle : 20.0 iterations : 5
+F
+F=F[+F]F[-F][F]
+-----------------------
+angle : 22.5 iterations : 4
+F
+F=FF-[-F+F+F]+[+F-F-F]
+-----------------------
+angle : 20.0 iterations : 7
+X
+X=F[+X]F[-X]+X;F=FF
+-----------------------
+angle : 25.7 iterations : 7
+X
+X=F[+X][-X]FX;F=FF
+-----------------------
+angle : 25.7 iterations : 7
+X
+X=F-[[X]+X]+F[+FX]-X;F=FF
+-----------------------
+angle : 60.0 iterations : 7 triangle 
+A
+A=B-A-B;B=A+B+A
+-----------------------
+angle : 90.0 iterations : 12 fractale  
+FX
+X=X+YF+;Y=-FX-Y
+-----------------------
+AVEC DES PROBAS :
+-----------------------
+angle : 22.5 iterations : 4
+F
+F=FF-[-F+F+F]+[+F-F-F];F=0.5
+-----------------------
+AVEC DES COULEUR :
+-----------------------
+angle : 22.0 iterations : 5 
+F
+F=C0FF-[C1-F+F+F]+[C2+F-F-F]
+-----------------------
+angle : 25.0 iterations : 5
+FX
+F=C0FF-[C1-F+F]+[C2+F-F];X=C3FF+[C1+F]+[C2-F]
+-----------------------
+angle : 90.0 iterations : 4 Courbe de Koch
+-F
+F=F+F-F-F+F
+-----------------------
+angle : 60.00 iterations : 4 Flocon de Koch
+F++F++F
+X=FF;F=F-F++F-F
+-----------------------
+angle : 36.00 iterations : 5 Carrelage de Penrose
+[7]++[7]++[7]++[7]++[7]
+6=81++91----71[-81----61]++;7=+81--91[---61--71]+;8=-61++71[+++81++91]-;9=--81++++61[+91++++71]--71
+-----------------------
+angle :72.00 iterations : 4 Autre exemple
+F-F-F-F-F
+F=F-F++F+F-F-F
+-----------------------
+angle : 90.00 iterations : 4 Sierpinski's Carpet
+F
+F=F+F-F-F-G+F+F+F-F;G=GGG
+-----------------------
+angle : 120.00 iterations : 6 Sierpinski's Triangle
+F-G-G
+F=F-G+F+G-F;G=GG
